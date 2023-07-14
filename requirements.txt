@@ -1,4 +1,0 @@
-python-dotenv==1.0.0
-langchain==0.0.137
-streamlit== 1.24.1
-openai==0.27.8
