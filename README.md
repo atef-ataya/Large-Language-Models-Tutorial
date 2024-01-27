@@ -44,6 +44,8 @@ By diving into these LangChain tutorials, you'll gain practical skills and expan
 
 **Additional Information:**
 
-LangChain Documentation: https://readthedocs.org/projects/langchain/
-OpenAI Documentation: https://platform.openai.com/docs/introduction
-Jupyter Notebook: https://jupyter.org/
+**LangChain Documentation:** https://readthedocs.org/projects/langchain/
+
+**OpenAI Documentation:** https://platform.openai.com/docs/introduction
+
+**Jupyter Notebook:** https://jupyter.org/
