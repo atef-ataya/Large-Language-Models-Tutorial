@@ -1,4 +1,4 @@
-**LangChain Tutorials with Jupyter Notebooks**
+**Large Language Models Tutorials with Jupyter Notebooks**
 
 This repository contains a collection of Jupyter notebooks demonstrating various aspects of using the LangChain library for natural language processing (NLP) tasks. Whether you're a beginner with LangChain or looking for ways to extend your knowledge, these tutorials offer practical examples and insights.
 
