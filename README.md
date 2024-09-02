@@ -46,7 +46,7 @@ Notebooks you can try:
 
 - Raise issues or share suggestions through the GitHub platform.
 
-- Join the LangChain community for further discussions and support.
+- Join the LLMs community for further discussions and support.
   
 By diving into these LangChain tutorials, you'll gain practical skills and expand your understanding of this powerful NLP library. Let's explore the exciting world of LangChain together!
 
