@@ -22,7 +22,7 @@ Whether you're a beginner just starting out or a seasoned pro looking for new id
 
 **Getting Started:**
 
-**Clone the repository:** Use git clone https://github.com/atef-ataya/LangChain-Tutorial to download the files.
+**Clone the repository:** Use git clone https://github.com/atef-ataya/Large-Language-Models-Tutorial.git to download the files.
 
 **Install requirements:** Open a terminal within the repository and run pip install -r requirements.txt to install necessary libraries.
 
