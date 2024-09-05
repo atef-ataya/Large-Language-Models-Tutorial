@@ -41,12 +41,11 @@ Notebooks you can try:
 ...and many more!
 
 **Feel free to:**
-
-- Fork this repository and contribute your own tutorials.
-
-- Raise issues or share suggestions through the GitHub platform.
-
 - Join the LLMs community for further discussions and support.
+- Star this repository to stay updated on new content!
+- Fork this repository and contribute your own tutorials.
+- Raise issues or share suggestions.
+- Connect with me on (**Twitter:** https://twitter.com/atef_ataya OR **YouTube:** https://www.youtube.com/@atefataya)
   
 By diving into these LangChain tutorials, you'll gain practical skills and expand your understanding of this powerful NLP library. Let's explore the exciting world of LangChain together!
 
@@ -57,3 +56,5 @@ By diving into these LangChain tutorials, you'll gain practical skills and expan
 **OpenAI Documentation:** https://platform.openai.com/docs/introduction
 
 **Jupyter Notebook:** https://jupyter.org/
+
+**Project Status:** Actively Maintained
