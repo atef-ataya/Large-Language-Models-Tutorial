@@ -1,0 +1,80 @@
+name: 🐛 Bug Report
+description: Report a bug in one of the tutorials
+title: '[Bug]: '
+labels: ['bug', 'needs-review']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! This helps make the tutorials better for everyone.
+
+  - type: dropdown
+    id: tutorial
+    attributes:
+      label: Tutorial Name
+      description: Which tutorial has the bug?
+      options:
+        - LangChain 101
+        - Prompt Engineering
+        - Question-Answering Application
+        - ChatGPT Clone
+        - Tavily AI Research Agent
+        - Recipe & Dish Image Generator
+        - Speech Recognition Using Whisper
+        - YouTube Downloader and Summary
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe what went wrong
+      placeholder: Tell us what you expected to happen and what actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Open notebook X
+        2. Run cell Y
+        3. See error Z
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Message
+      description: Copy and paste the full error message
+      render: python
+
+  - type: input
+    id: python-version
+    attributes:
+      label: Python Version
+      description: What version of Python are you using?
+      placeholder: '3.8.10'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where are you running the notebook?
+      options:
+        - Google Colab
+        - Local Jupyter
+        - GitHub Codespaces
+        - Other (please specify)
+    validations:
+      required: true
+
+---
+

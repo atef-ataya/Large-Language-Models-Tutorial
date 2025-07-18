@@ -1,0 +1,60 @@
+name: 📚 Tutorial Request
+description: Request a specific tutorial topic
+title: '[Tutorial Request]: '
+labels: ['tutorial-request', 'needs-review']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new tutorial topic you'd like to see covered!
+
+  - type: input
+    id: topic
+    attributes:
+      label: Tutorial Topic
+      description: What topic would you like a tutorial on?
+      placeholder: 'e.g., Fine-tuning LLMs, Building RAG Systems, etc.'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      description: What difficulty level should this tutorial be?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Mixed (beginner to advanced)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What should this tutorial cover?
+      description: Describe the specific concepts, techniques, or applications
+      placeholder: |
+        - Core concepts to explain
+        - Practical applications
+        - Libraries or tools to use
+        - Expected outcomes
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      description: What real-world problem would this tutorial help solve?
+      placeholder: How would learners apply this knowledge?
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Helpful Resources
+      description: Any papers, articles, or examples that might be useful?
+      placeholder: Links to research papers, blog posts, or existing implementations
