@@ -1,0 +1,28 @@
+name: Star Reminder
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add helpful comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            👋 Thanks for opening this issue! 
+
+            If this tutorial collection is helping you learn LLMs, a quick ⭐ star would mean a lot!
+
+            Also, feel free to:
+            - 🍴 Fork this repo to create your own tutorials
+            - 📺 Check out the [YouTube channel](https://www.youtube.com/@atefataya) for video explanations
+            - 💬 Join the discussion in [GitHub Discussions](https://github.com/atef-ataya/Large-Language-Models-Tutorial/discussions)
+
+            Happy learning! 🚀
+
+---
+

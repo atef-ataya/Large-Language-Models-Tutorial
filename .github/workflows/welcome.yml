@@ -1,0 +1,30 @@
+name: Welcome New Contributors
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Welcome new contributor
+      uses: peter-evans/create-or-update-comment@v4
+      with:
+        issue-number: ${{ github.event.pull_request.number }}
+        body: |
+          🎉 Thank you for your contribution to the LLM Tutorial Collection!
+          
+          Your help makes this resource better for everyone learning about Large Language Models.
+          
+          **Review Process:**
+          - ✅ Automated checks will validate your notebook
+          - 👀 A maintainer will review your contribution
+          - 🚀 Once approved, your changes will be merged
+          
+          While you wait, feel free to:
+          - ⭐ Star this repository if you haven't already
+          - 📺 Subscribe to the [YouTube channel](https://www.youtube.com/@atefataya)
+          - 🐦 Follow [@atef_ataya](https://twitter.com/atef_ataya) for updates
+          
+          Thank you for being awesome! 🙏
