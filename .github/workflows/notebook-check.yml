@@ -31,6 +31,3 @@ jobs:
       - name: Check for execution errors
         run: |
           find . -name "*.ipynb" -exec jupyter nbconvert --to notebook --execute --inplace {} \;
-
----
-
