@@ -1,8 +1,8 @@
 # 🚀 Large Language Models Tutorial Collection
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/atef-ataya/Large-Language-Models-Tutorial/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/atef-ataya/Large-Language-Models-Tutorial?style=social)](https://github.com/atef-ataya/Large-Language-Models-Tutorial/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/atef-ataya/Large-Language-Models-Tutorial?style=social)](https://github.com/atef-ataya/Large-Language-Models-Tutorial/network/members)
-[![GitHub license](https://img.shields.io/github/license/atef-ataya/Large-Language-Models-Tutorial)](https://github.com/atef-ataya/Large-Language-Models-Tutorial/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/atef-ataya/Large-Language-Models-Tutorial/blob/master/LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter Notebooks](https://img.shields.io/badge/jupyter-notebooks-orange.svg)](https://jupyter.org/)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/atef-ataya/Large-Language-Models-Tutorial)
