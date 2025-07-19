@@ -1,0 +1,21 @@
+# .github/workflows/star-reminder-pr.yml
+name: Star Reminder – PRs
+
+on:
+  pull_request_target: # runs in the base repo, full-power token
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.number }} # PRs are issues, too
+          body: |
+            👋 Thanks for this PR! 
+            If the LLM tutorials help you, a quick ⭐ star would mean a lot.
+            ⋯
